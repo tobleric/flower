@@ -1,0 +1,44 @@
+body {
+  margin: 50px;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#frames {
+  color: #ff0000;
+  display: inline-block;
+  position: absolute;
+  padding: 0 20px;
+}
+
+#canvas-flower {
+  border: 5px solid black;
+  line-height: 0;
+  width: 600px;
+  margin: 60px;
+}
+
+.flexbox-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-1 > * {
+  height: fit-content;
+}
+
+/*Styling Klassen*/
+.center {
+  text-align: center;
+}
