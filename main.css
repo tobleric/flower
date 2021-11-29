@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-decoration: none;
+}
+
+.main-nav a {
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: none;
+}
